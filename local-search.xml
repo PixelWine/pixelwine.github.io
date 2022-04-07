@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/04/07/"/>
+    <url>/2022/04/07/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo server<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo generate<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PW Cloud 正式运行</title>
+    <link href="/2022/03/24/"/>
+    <url>/2022/03/24/</url>
+    
+    <content type="html"><![CDATA[<h2 id="pw-cloud-即日起開始運行"><a class="markdownIt-Anchor" href="#pw-cloud-即日起開始運行"></a> PW Cloud 即日起開始運行！</h2><blockquote><p>簡體字版稍後更新。</p></blockquote><p>為了存放個人工作資料，特設立 <a href="https://cloud.pixelwine.team">PW Cloud</a> 多存儲節點在綫雲盤系統，接受 PW Team 成員注冊，但同時也接受外來用戶注冊。</p><h3 id="ta-到底在哪裡"><a class="markdownIt-Anchor" href="#ta-到底在哪裡"></a> TA 到底在哪裡？</h3><p>隨處可得, 無論 Android, iOS 設備, 亦或 PC, Mac, 皆一秒鐘到手！</p><h3 id="權限介紹tl-dr-請至最後"><a class="markdownIt-Anchor" href="#權限介紹tl-dr-請至最後"></a> 權限介紹：（TL; DR 請至最後）</h3><ul><li><p>管理者（簡體介面作「管理员」）：缺省給予初始容量 8 Gigabytes, 下載不限速，允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，允許多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件不限制大小。</p></li><li><p>S高級使用者（簡體介面作「SVIP」）：缺省給予初始容量 5 Gigabytes, 下載限速至 12 MB/s（理論上的 100Mbps），允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，允許多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件限制在 3 Gigabytes 之内。</p></li><li><p>高級使用者（簡體介面作「高级用户」）：缺省給予初始容量 3 Gigabytes, 下載限速至 6 MB/s（理論上的 50Mbps），允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，阻止多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件限制在 1 Gigabytes 之内。</p></li><li><p>一般使用者（簡體介面作「普通用户」）：缺省給予初始容量 500 Megabytes, 下載限速至 3 MB/s（理論上的 25Mbps），允許創建分享連結，允許下載他人分享的内容，阻止 WebDAV 協議，阻止多綫程下載程式，阻止創建離綫下載任務，阻止在綫壓縮、解壓縮。</p><h3 id="tl-dr"><a class="markdownIt-Anchor" href="#tl-dr"></a> TL; DR?</h3><table><thead><tr><th>使用者類型</th><th>初始容量 / GB</th><th>下載限速 / (MB/s)</th><th>創建分享連結</th><th>下載他人分享内容</th><th>WebDAV 協議</th><th>多綫程下載程式</th><th>離綫下載</th><th>在綫壓縮、解壓縮</th><th>在綫壓縮、解壓縮限制 / GB</th></tr></thead><tbody><tr><td>一般使用者</td><td>0.5</td><td>3</td><td>✔</td><td>✔</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>高級使用者</td><td>3</td><td>6</td><td>✔</td><td>✔</td><td>✔</td><td>❌</td><td>✔</td><td>✔</td><td>1</td></tr><tr><td>S高級使用者</td><td>5</td><td>12</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>3</td></tr><tr><td>管理員</td><td>8</td><td>無</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>無</td></tr></tbody></table></li></ul><p>加入 PW Team 者可免費獲得一個 @pixelwine.com.cn 域的郵箱，且擁有 <a href="https://cloud.pixelwine.team">PW Cloud</a> 「高級使用者」權限。</p><p>請電郵至 nothing567[ at ]<a href="http://pixelwine.com.cn">pixelwine.com.cn</a> 亦或 team [ at ]<a href="http://pixelwine.com.cn">pixelwine.com.cn</a>，洽談加入。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【通知】本站已经由 WordPress 转向 Hexo</title>
+    <link href="/2022/02/12/"/>
+    <url>/2022/02/12/</url>
+    
+    <content type="html"><![CDATA[<p>【通知】</p><p>本站各用户：</p><p>本站已于即日起启用 <a href="https://hexo.io">Hexo</a> , 放弃 WordPress 架构。</p><p>特此通知。</p><p style="text-align:right">管理员 <a href="//pixelwine.top/about/">@pixelwine</a><br>2022年2月12日。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
