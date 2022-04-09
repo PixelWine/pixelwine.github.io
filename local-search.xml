@@ -4,26 +4,57 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2022/04/07/"/>
-    <url>/2022/04/07/</url>
+    <title>PB 线路选择</title>
+    <link href="/2022/d89b5491b62b/"/>
+    <url>/2022/d89b5491b62b/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo server<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo generate<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="线路选择"><a class="markdownIt-Anchor" href="#线路选择"></a> 线路选择</h2><p>Hey Hello!<br />有这些连接线路可以供你选择！</p><h3 id="推荐自有服务器线路"><a class="markdownIt-Anchor" href="#推荐自有服务器线路"></a> 【推荐】自有服务器线路</h3><ul><li>内部代码: TencentYunHK</li><li>四字码: TXHK</li><li>位置: HK</li><li>连接地址: <a href="http://blog.pixelwine.top">blog.pixelwine.top</a></li></ul><h3 id="github-线路"><a class="markdownIt-Anchor" href="#github-线路"></a> GitHub 线路</h3><ul><li>内部代码: GitHubPagesUS</li><li>四字码: GHUS</li><li>位置: US</li><li>连接地址: <a href="http://gh.blog.pixelwine.top">gh.blog.pixelwine.top</a></li></ul>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>站务</tag>
+      
+    </tags>
     
   </entry>
   
   
   
   <entry>
-    <title>PW Cloud 正式运行</title>
-    <link href="/2022/03/24/"/>
-    <url>/2022/03/24/</url>
+    <title>PB 更新日志</title>
+    <link href="/2022/204d9b9fe45d/"/>
+    <url>/2022/204d9b9fe45d/</url>
     
-    <content type="html"><![CDATA[<h2 id="pw-cloud-即日起開始運行"><a class="markdownIt-Anchor" href="#pw-cloud-即日起開始運行"></a> PW Cloud 即日起開始運行！</h2><blockquote><p>簡體字版稍後更新。</p></blockquote><p>為了存放個人工作資料，特設立 <a href="https://cloud.pixelwine.team">PW Cloud</a> 多存儲節點在綫雲盤系統，接受 PW Team 成員注冊，但同時也接受外來用戶注冊。</p><h3 id="ta-到底在哪裡"><a class="markdownIt-Anchor" href="#ta-到底在哪裡"></a> TA 到底在哪裡？</h3><p>隨處可得, 無論 Android, iOS 設備, 亦或 PC, Mac, 皆一秒鐘到手！</p><h3 id="權限介紹tl-dr-請至最後"><a class="markdownIt-Anchor" href="#權限介紹tl-dr-請至最後"></a> 權限介紹：（TL; DR 請至最後）</h3><ul><li><p>管理者（簡體介面作「管理员」）：缺省給予初始容量 8 Gigabytes, 下載不限速，允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，允許多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件不限制大小。</p></li><li><p>S高級使用者（簡體介面作「SVIP」）：缺省給予初始容量 5 Gigabytes, 下載限速至 12 MB/s（理論上的 100Mbps），允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，允許多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件限制在 3 Gigabytes 之内。</p></li><li><p>高級使用者（簡體介面作「高级用户」）：缺省給予初始容量 3 Gigabytes, 下載限速至 6 MB/s（理論上的 50Mbps），允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，阻止多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件限制在 1 Gigabytes 之内。</p></li><li><p>一般使用者（簡體介面作「普通用户」）：缺省給予初始容量 500 Megabytes, 下載限速至 3 MB/s（理論上的 25Mbps），允許創建分享連結，允許下載他人分享的内容，阻止 WebDAV 協議，阻止多綫程下載程式，阻止創建離綫下載任務，阻止在綫壓縮、解壓縮。</p><h3 id="tl-dr"><a class="markdownIt-Anchor" href="#tl-dr"></a> TL; DR?</h3><table><thead><tr><th>使用者類型</th><th>初始容量 / GB</th><th>下載限速 / (MB/s)</th><th>創建分享連結</th><th>下載他人分享内容</th><th>WebDAV 協議</th><th>多綫程下載程式</th><th>離綫下載</th><th>在綫壓縮、解壓縮</th><th>在綫壓縮、解壓縮限制 / GB</th></tr></thead><tbody><tr><td>一般使用者</td><td>0.5</td><td>3</td><td>✔</td><td>✔</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>高級使用者</td><td>3</td><td>6</td><td>✔</td><td>✔</td><td>✔</td><td>❌</td><td>✔</td><td>✔</td><td>1</td></tr><tr><td>S高級使用者</td><td>5</td><td>12</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>3</td></tr><tr><td>管理員</td><td>8</td><td>無</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>無</td></tr></tbody></table></li></ul><p>加入 PW Team 者可免費獲得一個 @pixelwine.com.cn 域的郵箱，且擁有 <a href="https://cloud.pixelwine.team">PW Cloud</a> 「高級使用者」權限。</p><p>請電郵至 nothing567[ at ]<a href="http://pixelwine.com.cn">pixelwine.com.cn</a> 亦或 team [ at ]<a href="http://pixelwine.com.cn">pixelwine.com.cn</a>，洽談加入。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="说明"><a class="markdownIt-Anchor" href="#说明"></a> 说明</h2><p>按时间先后顺序自下而上排列.<br />「版本类型」说明：</p><ul><li>初始版本: 刚开始搭建 PB 的时候的版本，最古老的那种.</li><li>重构版本: 在上一个版本的基础上，更改了底层的架构.（比如 Wordpress -&gt; Hexo）</li><li>归零版本: 以上一个初始版本或重构版本为基底，删除所有文章，开始重新写.</li><li>重建版本: Remote 的 Hexo 重装了一次.</li><li>重作版本: Local 的 Hexo 重装了一次.</li><li>“Version” Update: 比较大版本的更新 大概包括加了些功能啊之类的. 也简称为 “VUpd”.</li><li>“Edition” Update: 比较小版本的更新 包括添加固定页面等. 也简称为 “EUpd”.（有时直接被并入更高级别的版本一起说）</li><li>换皮版本: <s>只是换了个主题而已.</s></li></ul><blockquote><p>P.S. 当一个版本符合多种版本的界定时，界定为位置位于最上方的那个类型.</p></blockquote><h2 id="pb-20-船新版本-更新日志"><a class="markdownIt-Anchor" href="#pb-20-船新版本-更新日志"></a> 「PB 2.0 船新版本」 更新日志</h2><p>版本信息如下：</p><table><thead><tr><th>内部版本号</th><th>外部版本号</th><th>版本名称</th><th>版本类型</th><th>更新日期</th></tr></thead><tbody><tr><td>FuckDelcron</td><td>2.0</td><td>PB 2.0 船新版本</td><td>重建版本</td><td>2022-04-07</td></tr></tbody></table><figure class="highlight cpp"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs cpp"><span class="hljs-comment">// 为纪念因不幸感染 Delta &amp; Omicron 而死亡的人们，因此把此版本的内部版本号命名为 &#x27;FuckDelcron&#x27;.</span><br></code></pre></div></td></tr></table></figure><ul><li>新增了<a href="http://blog.pixelwine.top/2022/d89b5491b62b/">「线路选择」</a>选项，<s>方便您在南极访问 PB（逃</s>.</li><li>主题沿用了由 <a href="https://github.com/fluid-dev">Fluid-dev</a> 开发团队负责的 <a href="https://hexo.fluid-dev.com/">Hexo Fluid</a> 主题.</li><li>更改了主页背景图（来自 <a href="https://unsplash.com/">Unsplash</a>）.</li><li>更改了<a href="http://blog.pixelwine.top/about/">关于页面</a>.</li><li>更改了网站主语言为英语.（都很基础啦说）</li><li>添加了本日志.</li><li><s>移除了 Herobrine</s>.</li></ul><h2 id="pixel-blog-with-hexo-更新日志"><a class="markdownIt-Anchor" href="#pixel-blog-with-hexo-更新日志"></a> 「PixEL | Blog With Hexo」 更新日志</h2><p>版本信息如下：</p><table><thead><tr><th>内部版本号</th><th>外部版本号</th><th>版本名称</th><th>版本类型</th><th>更新日期</th></tr></thead><tbody><tr><td>HexoInitial</td><td>1.1</td><td>PixEL | Blog</td><td>重构版本</td><td>2022-02-12</td></tr></tbody></table><p>因时间久远已不可考.</p><h2 id="pixel-blog初始版本-更新日志"><a class="markdownIt-Anchor" href="#pixel-blog初始版本-更新日志"></a> 「PixEL | Blog」初始版本 更新日志</h2><p>版本信息如下：</p><table><thead><tr><th>内部版本号</th><th>外部版本号</th><th>版本名称</th><th>版本类型</th><th>更新日期</th></tr></thead><tbody><tr><td>WPInitial</td><td>1.0</td><td>PixEL | Blog</td><td>初始版本</td><td>2021-10-xx</td></tr></tbody></table><p>因时间久远已不可考.</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>站务</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>【闲话】 PB 没换架构</title>
+    <link href="/2022/16aaced5e33b/"/>
+    <url>/2022/16aaced5e33b/</url>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a class="markdownIt-Anchor" href="#背景"></a> 背景</h2><p>本来吧，Fagri 发现有一个不好的家伙<strong>入侵</strong>了 PB<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="本站 PixEL | Blog 的缩写啦.">[1]</span></a></sup> 的服务器（再次给良心云<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="指马HT家.">[2]</span></a></sup>的告警服务点赞👍），懒如 Fagri 直接在良心云上重装了一下系统。</p><p>非常巧的，Fagri 的个人 PC 也重装了一下系统，原来 Hexo 的文件全无（虽然我是备份了_config.yml; _config.fluid.yml; sources Directory）。</p><p>所以 Remote 端和 Local 端的 Hexo 都需要重新配置了。<br />这是前言。</p><h2 id="事件始末"><a class="markdownIt-Anchor" href="#事件始末"></a> 事件始末</h2><p>后来，Fagri 发现了一个<s>看起来</s>非常棒的东西 —— <a href="https://gridea.dev/">Gridea</a>，遂<s>弃 Hexo 而</s>改用 Gridea.</p><p>但是，既然为了这个事情，Fagri 专门写了一篇 article 出来，就说明不可能这么简单。</p><p>是的，在配置好 Gridea 的所有 Config 后，虽然客户端显示同步成功，但 GitHub 上 什 么 反 应 都没有。故弃坑回转 Hexo.</p><p>然后就是你们看到的这个站点啦！</p><p>Fagri 把它叫做 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>P</mi><mi>B</mi><mn>2.0</mn><mi mathvariant="normal">船</mi><mi mathvariant="normal">新</mi><mi mathvariant="normal">版</mi><mi mathvariant="normal">本</mi></mrow><annotation encoding="application/x-tex">PB 2.0 船新版本</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mord">2</span><span class="mord">.</span><span class="mord">0</span><span class="mord cjk_fallback">船</span><span class="mord cjk_fallback">新</span><span class="mord cjk_fallback">版</span><span class="mord cjk_fallback">本</span></span></span></span>.</p><h2 id="更新日志"><a class="markdownIt-Anchor" href="#更新日志"></a> 更新日志</h2><ul><li>主题沿用了由 <a href="https://github.com/fluid-dev">Fluid-dev</a> 开发团队负责的 <a href="https://hexo.fluid-dev.com/">Hexo Fluid</a> 主题.</li><li>更改了主页背景图（来自 <a href="https://unsplash.com/">Unsplash</a>）.</li><li>更改了<a href="http://blog.pixelwine.top/about/">关于页面</a>.</li><li>更改了网站主语言为英语.（都很基础啦说）</li><li><s>更新了「更新日志」.</s></li><li><s>移除了 Herobrine</s>.</li><li>添加了一篇博文: <a href="http://blog.pixelwine.top/2022/204d9b9fe45d/">PixEL Blog 更新日志</a>.</li></ul><section class="footnotes"><h2>Footnotes</h2><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>本站 PixEL | Blog 的缩写啦.<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>指马HT家.<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>闲话</tag>
+      
+    </tags>
     
   </entry>
   
@@ -31,8 +62,8 @@
   
   <entry>
     <title>【通知】本站已经由 WordPress 转向 Hexo</title>
-    <link href="/2022/02/12/"/>
-    <url>/2022/02/12/</url>
+    <link href="/2022/b3040c641b23/"/>
+    <url>/2022/b3040c641b23/</url>
     
     <content type="html"><![CDATA[<p>【通知】</p><p>本站各用户：</p><p>本站已于即日起启用 <a href="https://hexo.io">Hexo</a> , 放弃 WordPress 架构。</p><p>特此通知。</p><p style="text-align:right">管理员 <a href="//pixelwine.top/about/">@pixelwine</a><br>2022年2月12日。</p>]]></content>
     
