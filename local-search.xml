@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>PWOJ 正式运行</title>
+    <link href="/2022/878557c49001/"/>
+    <url>/2022/878557c49001/</url>
+    
+    <content type="html"><![CDATA[<h2 id="pw-team-online-judge"><a class="markdownIt-Anchor" href="#pw-team-online-judge"></a> PW Team Online Judge</h2><h3 id="开屏雷击"><a class="markdownIt-Anchor" href="#开屏雷击"></a> 《开屏雷击》</h3><p><img src="pwoj.png" alt="" /><br />是的，你没有看错，这个<s>很好看的</s> Logo 就是由本人设计的.</p><h3 id="如何构建"><a class="markdownIt-Anchor" href="#如何构建"></a> 如何构建</h3><p>以后将会写一篇文章专门讲怎么搭建（咕咕咕）。</p><h3 id="如何访问"><a class="markdownIt-Anchor" href="#如何访问"></a> 如何访问</h3><p>IP: <a href="http://43.132.160.117:8888/">43.132.160.117:8888</a><br />Nginx 反代仍在踩坑中.</p><h3 id="如何加入"><a class="markdownIt-Anchor" href="#如何加入"></a> 如何加入</h3><p>首先，进行注册.<br /><img src="signup.png" alt="" /><br /><img src="sendingemail.png" alt="" /><br />（由于咕咕咕的原因，现在还没有邮箱验证功能）<br />注册完毕后进行显示配置.<br /><img src="display.png" alt="" /><br />点击页面最下方的 <code>Save All Changes</code> 即可保存配置.<br />配置完毕后再访问<a href="http://43.132.160.117:8888/">主站</a>，即可开始愉快地刷<s>水</s>题~</p><h3 id="如何刷水题"><a class="markdownIt-Anchor" href="#如何刷水题"></a> 如何刷<s>水</s>题</h3><p>根据图片提示进入主域开始刷题。<br /><img src="coding.png" alt="" /></p><h3 id="如何自己创建题目"><a class="markdownIt-Anchor" href="#如何自己创建题目"></a> 如何自己创建题目</h3><p>可以自己创建域。步骤参考<a href="https://hydro.ac/discuss/6172ceeed850d38c79ae18f9#1649491502512">HydroOJ</a>.<br />如果想要把题目加入主域，请通过本博客的 About 页面最下方的联系方式联系我.</p><h3 id="the-end"><a class="markdownIt-Anchor" href="#the-end"></a> The End.</h3>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>PWOJ</tag>
+      
+      <tag>HydroOJ</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>PB 线路选择</title>
     <link href="/2022/d89b5491b62b/"/>
     <url>/2022/d89b5491b62b/</url>
