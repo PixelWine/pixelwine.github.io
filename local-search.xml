@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>如何翻墙 - 新手教程</title>
+    <link href="/2022/b1e76494a1f0/"/>
+    <url>/2022/b1e76494a1f0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="为什么要翻墙"><a class="markdownIt-Anchor" href="#为什么要翻墙"></a> 为什么要翻墙</h2><p>众所周知，在中国大陆境内，有一堵看不见的墙.</p><blockquote><p>防火长城（英语：Great Firewall，常用简称：<strong>GFW</strong>），中文也称中国国家防火墙，俗称墙、网络长城、防火墙等等，中国国家互联网信息办公室称为数据跨境安全网关，是中华人民共和国政府监控和过滤互联网国际出口内容的软硬件系统集合。随着使用的拓广，“墙”有时也被用作动词，中国网友所说的“被墙”即指网站内容被防火长城所屏蔽或者指服务器的通讯被封阻，“翻墙”“挂梯子”也被引申为突破网络审查浏览中国大陆境外被屏蔽的网站或使用服务的行为。</p></blockquote><p>来源 Wikipedia<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://zh.wikipedia.org/wiki/防火长城">[1]</span></a></sup>.</p><p>而我们要是想跨过 GFW, 访问 YouTube, Google, Twitter 等网站时，就需要「翻墙」了.</p><p>本篇教程将会详细地讲解如何进行翻墙，如有不理解的地方或文章中某些链接失效，都可在下方评论区留言.</p><h2 id="准备"><a class="markdownIt-Anchor" href="#准备"></a> 准备</h2><ul><li>一个能正常接收国内外来信的电子邮箱（QQ邮箱不是一个好选择）</li></ul><!-- 或者到 [24Mail 网站](https://24mail.chacuo.net/)领取一个**免费的**临时邮箱.P.S. 此网站非 PB<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="本站 PixEL | Blog 的简称.">[2]</span></a></sup> 提供，请注意信息安全；同时，此网站对翻墙用户不友好，亲测翻墙后无法打开. --><ul><li>一个能正常运转的 PC 端浏览器</li></ul><p>Let’s Go!</p><h2 id="开始"><a class="markdownIt-Anchor" href="#开始"></a> 开始</h2><p>本文使用的是「纸飞机」提供的服务.</p><p>Step 1: 请到 <a href="https://asd.sr9.xyz/auth/register?code=CSA3">https://asd.sr9.xyz/auth/register?code=CSA3</a> 处根据提示使用邮箱完成注册.（邀请码 请务必填写CSA3 不要改动）</p><p>Step 2: 根据图片提示，进入商店.（此处需要 RMB）<br /><img src="charge.png" alt="" /><br />下滑，找到 「会员一月 ￥20.00 200G / 31天」或「一月会员 ￥15.00 150G / 30天」或「商务vip ￥10.00 50G / 30天」其中任意一个套餐。</p><p>选择一个购买即可，三种套餐<strong>几乎</strong>没有什么差别，如果只是想试试水的话，可以先购买「商务vip」套餐，10元每月，可以不自动续费.</p><p>下面以「会员一月 20元每月」套餐进行演示<br /><img src="buy.png" alt="" /></p><p>使你的选项和下图1的选项一样后（套餐和价格可能有差异，不影响），点击「确定」.</p><p>出现图2画面时，点击「点击进入充值界面」，然后在图3「输入金额」的框中填入你的套餐的价格，最后点击充值即可.</p><p>（「纸飞机」系统要求使用支付宝）<br /><img src="alipay.png" alt="" /></p><h2 id="结束了"><a class="markdownIt-Anchor" href="#结束了"></a> 结束了？</h2><p>剩余内容请先参考 <a href="https://zfj.zhifeiji.xyz/user/tutorial">纸飞机官方教程</a>.</p><p>Windows 用户请点击顶栏中的 V2ray, 然后查看「Windows 安装使用」.</p><p><s>先鸽着.</s></p><section class="footnotes"><h2>Footnotes</h2><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E">https://zh.wikipedia.org/wiki/防火长城</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>本站 PixEL | Blog 的简称.<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>翻墙</tag>
+      
+      <tag>新手教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>PWOJ 正式运行</title>
     <link href="/2022/878557c49001/"/>
     <url>/2022/878557c49001/</url>
