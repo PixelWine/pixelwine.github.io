@@ -4,6 +4,29 @@
   
   
   <entry>
+    <title>C# 从入门到入土（一）</title>
+    <link href="/2022/4a2ad751c620/"/>
+    <url>/2022/4a2ad751c620/</url>
+    
+    <content type="html"><![CDATA[<h2 id="0x00-背景"><a class="markdownIt-Anchor" href="#0x00-背景"></a> 0x00 背景</h2><p>如你所见，这是一篇 C# <s>半</s>小白教程.</p><p>我<strong>要求</strong>你在阅读这篇教程之前：</p><ul><li>知道并领会「提问的智慧」.</li></ul><p>我<em>希望</em>你在阅读这篇教程之前：</p><ul><li>有学过 C++ 或类似的具有相同原理（OOP<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="面向对象编程 Object-oriented programming">[1]</span></a></sup>）的编程语言.</li><li>知道 C Sharp<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="C Sharp == C#. 下文同.">[2]</span></a></sup> 在 CSP-J/S 以及 NOIP 均不能用.<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://noi.cn/gynoi/tlgd/2016-11-01/710444.shtml">[3]</span></a></sup></li></ul><p>Ready? Let’s Go!</p><h2 id="0x01-环境配置"><a class="markdownIt-Anchor" href="#0x01-环境配置"></a> 0x01 环境配置</h2><p>众 所 周 知，<s>要想写出好的代码首先要有一个好的环境</s>，于是乎让我们开始配置环境吧~</p><blockquote><p>以下内容部分参考 <a href="https://www.runoob.com/csharp/csharp-environment-setup.html">菜鸟教程</a>.</p></blockquote><h3 id="tldr-csharp-compiler"><a class="markdownIt-Anchor" href="#tldr-csharp-compiler"></a> TL;DR. (CSharp Compiler)</h3><p>下面为 TL;DR.<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="too long; didn’t read.">[4]</span></a></sup> 内容.<br />如果你在用 Windows 操作系统，那么直接 <code>Win + R</code> 调出 <code>cmd</code> 窗口.</p><p>输入 <code>csc 你要编译的文件的文件名</code>，比如说 <code>csc hellopb.cs</code> 即可.这样就会生成一个<code>hellopb.exe</code>程序.</p><blockquote><p>如果得到 <code>'csc' is not recognized as an internal or external command, operable program or batch file.</code> 之类的提示，可以参考菜鸟教程下方的<a href="https://www.runoob.com/csharp/csharp-program-structure.html#:~:text=%E8%8B%A5%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95,%E5%9C%A8%E5%90%8E%E9%9D%A2%E5%8D%B3%E5%8F%AF%EF%BC%89%E3%80%82">这篇笔记</a>. 如果还是不行，可以下方评论.</p></blockquote><h3 id="visual-studio"><a class="markdownIt-Anchor" href="#visual-studio"></a> Visual Studio</h3><p><em>与上面的 <a href="#tldr-csharp-compiler">TL;DR</a> 方法可以并存，但二选一即可.</em></p><p>请参考 <a href="https://docs.microsoft.com/zh-cn/visualstudio/install/install-visual-studio?view=vs-2022">Microsoft 技术文档</a>. <s>它比我写的好多了</s></p><p>但请注意，在进行 第 4 步 - 选择工作负载 时，务必选中 「.NET 桌面开发」选项. 其余自由配置.</p><h1 id="warning"><a class="markdownIt-Anchor" href="#warning"></a> 🕊 Warning</h1><p>下面内容尚没有更新，请<strong>随意</strong>点击按钮催更. <sup id="fnref:5" class="footnote-ref"><a href="#fn:5" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://en.wikipedia.org/wiki/Placebo_button">[5]</span></a></sup></p><p><button>催  更</button></p><section class="footnotes"><h2>Footnotes</h2><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1">面向对象编程 Object-oriented programming</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>C Sharp == C#. 下文同.<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://noi.cn/gynoi/tlgd/2016-11-01/710444.shtml">https://noi.cn/gynoi/tlgd/2016-11-01/710444.shtml</a><a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a href="https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD/tldr">too long; didn’t read.</a><a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:5" class="footnote-text"><span><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://en.wikipedia.org/wiki/Placebo_button</a><a href="#fnref:5" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>新手教程</tag>
+      
+      <tag>Coding</tag>
+      
+      <tag>尚未完成的 flag</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何翻墙 - 新手教程</title>
     <link href="/2022/b1e76494a1f0/"/>
     <url>/2022/b1e76494a1f0/</url>
@@ -14,9 +37,9 @@
     
     <tags>
       
-      <tag>翻墙</tag>
-      
       <tag>新手教程</tag>
+      
+      <tag>翻墙</tag>
       
     </tags>
     

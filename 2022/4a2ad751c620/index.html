@@ -16,21 +16,23 @@
   <meta name="author" content="Fagri EL">
   <meta name="keywords" content="">
   
-    <meta name="description" content="说明 按时间先后顺序自下而上排列. 「版本类型」说明：  初始版本: 刚开始搭建 PB 的时候的版本，最古老的那种. 重构版本: 在上一个版本的基础上，更改了底层的架构.（比如 Wordpress -&gt; Hexo） 归零版本: 以上一个初始版本或重构版本为基底，删除所有文章，开始重新写. 重建版本: Remote 的 Hexo 重装了一次. 重作版本: Local 的 Hexo 重装了一次">
+    <meta name="description" content="0x00 背景 如你所见，这是一篇 C# 半小白教程. 我要求你在阅读这篇教程之前：  知道并领会「提问的智慧」.  我希望你在阅读这篇教程之前：  有学过 C++ 或类似的具有相同原理（OOP[1]）的编程语言. 知道 C Sharp[2] 在 CSP-J&#x2F;S 以及 NOIP 均不能用.[3]  Ready? Let’s Go!  0x01 环境配置 众 所 周 知，要想写出好的代码首先要有一">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PB 更新日志">
-<meta property="og:url" content="https://blog.pixelwine.top/2022/204d9b9fe45d/index.html">
+<meta property="og:title" content="C# 从入门到入土（一）">
+<meta property="og:url" content="https://blog.pixelwine.top/2022/4a2ad751c620/index.html">
 <meta property="og:site_name" content="PixEL | Blog">
-<meta property="og:description" content="说明 按时间先后顺序自下而上排列. 「版本类型」说明：  初始版本: 刚开始搭建 PB 的时候的版本，最古老的那种. 重构版本: 在上一个版本的基础上，更改了底层的架构.（比如 Wordpress -&gt; Hexo） 归零版本: 以上一个初始版本或重构版本为基底，删除所有文章，开始重新写. 重建版本: Remote 的 Hexo 重装了一次. 重作版本: Local 的 Hexo 重装了一次">
+<meta property="og:description" content="0x00 背景 如你所见，这是一篇 C# 半小白教程. 我要求你在阅读这篇教程之前：  知道并领会「提问的智慧」.  我希望你在阅读这篇教程之前：  有学过 C++ 或类似的具有相同原理（OOP[1]）的编程语言. 知道 C Sharp[2] 在 CSP-J&#x2F;S 以及 NOIP 均不能用.[3]  Ready? Let’s Go!  0x01 环境配置 众 所 周 知，要想写出好的代码首先要有一">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-04-09T06:10:22.000Z">
-<meta property="article:modified_time" content="2022-04-09T08:10:35.394Z">
+<meta property="article:published_time" content="2022-04-17T13:28:26.000Z">
+<meta property="article:modified_time" content="2022-04-17T14:19:29.437Z">
 <meta property="article:author" content="Fagri EL">
-<meta property="article:tag" content="站务">
+<meta property="article:tag" content="新手教程">
+<meta property="article:tag" content="Coding">
+<meta property="article:tag" content="尚未完成的 flag">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>PB 更新日志 - PixEL | Blog</title>
+  <title>C# 从入门到入土（一） - PixEL | Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -176,7 +178,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="PB 更新日志">
+            <span class="h2" id="subtitle" title="C# 从入门到入土（一）">
               
             </span>
 
@@ -186,8 +188,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-04-09 14:10" pubdate>
-        April 9, 2022 pm
+      <time datetime="2022-04-17 21:28" pubdate>
+        April 17, 2022 pm
       </time>
     </span>
   
@@ -197,7 +199,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      819 字
+      757 字
     </span>
   
 
@@ -243,110 +245,57 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">PB 更新日志</h1>
+            <h1 style="display: none">C# 从入门到入土（一）</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：8 days ago
+                  本文最后更新于：a minute ago
                 
               </p>
             
             <div class="markdown-body">
-              <h2 id="说明"><a class="markdownIt-Anchor" href="#说明"></a> 说明</h2>
-<p>按时间先后顺序自下而上排列.<br />
-「版本类型」说明：</p>
+              <h2 id="0x00-背景"><a class="markdownIt-Anchor" href="#0x00-背景"></a> 0x00 背景</h2>
+<p>如你所见，这是一篇 C# <s>半</s>小白教程.</p>
+<p>我<strong>要求</strong>你在阅读这篇教程之前：</p>
 <ul>
-<li>初始版本: 刚开始搭建 PB 的时候的版本，最古老的那种.</li>
-<li>重构版本: 在上一个版本的基础上，更改了底层的架构.（比如 Wordpress -&gt; Hexo）</li>
-<li>归零版本: 以上一个初始版本或重构版本为基底，删除所有文章，开始重新写.</li>
-<li>重建版本: Remote 的 Hexo 重装了一次.</li>
-<li>重作版本: Local 的 Hexo 重装了一次.</li>
-<li>“Version” Update: 比较大版本的更新 大概包括加了些功能啊之类的. 也简称为 “VUpd”.</li>
-<li>“Edition” Update: 比较小版本的更新 包括添加固定页面等. 也简称为 “EUpd”.（有时直接被并入更高级别的版本一起说）</li>
-<li>换皮版本: <s>只是换了个主题而已.</s></li>
+<li>知道并领会「提问的智慧」.</li>
 </ul>
+<p>我<em>希望</em>你在阅读这篇教程之前：</p>
+<ul>
+<li>有学过 C++ 或类似的具有相同原理（OOP<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="面向对象编程 Object-oriented programming
+">[1]</span></a></sup>）的编程语言.</li>
+<li>知道 C Sharp<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="C Sharp == C#. 下文同.
+">[2]</span></a></sup> 在 CSP-J/S 以及 NOIP 均不能用.<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://noi.cn/gynoi/tlgd/2016-11-01/710444.shtml
+">[3]</span></a></sup></li>
+</ul>
+<p>Ready? Let’s Go!</p>
+<h2 id="0x01-环境配置"><a class="markdownIt-Anchor" href="#0x01-环境配置"></a> 0x01 环境配置</h2>
+<p>众 所 周 知，<s>要想写出好的代码首先要有一个好的环境</s>，于是乎让我们开始配置环境吧~</p>
 <blockquote>
-<p>P.S. 当一个版本符合多种版本的界定时，界定为位置位于最上方的那个类型.</p>
+<p>以下内容部分参考 <a target="_blank" rel="noopener" href="https://www.runoob.com/csharp/csharp-environment-setup.html">菜鸟教程</a>.</p>
 </blockquote>
-<h2 id="pb-20-船新版本-更新日志"><a class="markdownIt-Anchor" href="#pb-20-船新版本-更新日志"></a> 「PB 2.0 船新版本」 更新日志</h2>
-<p>版本信息如下：</p>
-<table>
-<thead>
-<tr>
-<th>内部版本号</th>
-<th>外部版本号</th>
-<th>版本名称</th>
-<th>版本类型</th>
-<th>更新日期</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>FuckDelcron</td>
-<td>2.0</td>
-<td>PB 2.0 船新版本</td>
-<td>重建版本</td>
-<td>2022-04-07</td>
-</tr>
-</tbody>
-</table>
-<figure class="highlight cpp"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs cpp"><span class="hljs-comment">// 为纪念因不幸感染 Delta &amp; Omicron 而死亡的人们，因此把此版本的内部版本号命名为 &#x27;FuckDelcron&#x27;.</span><br></code></pre></div></td></tr></table></figure>
-<ul>
-<li>新增了<a href="http://blog.pixelwine.top/2022/d89b5491b62b/">「线路选择」</a>选项，<s>方便您在南极访问 PB（逃</s>.</li>
-<li>主题沿用了由 <a target="_blank" rel="noopener" href="https://github.com/fluid-dev">Fluid-dev</a> 开发团队负责的 <a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/">Hexo Fluid</a> 主题.</li>
-<li>更改了主页背景图（来自 <a target="_blank" rel="noopener" href="https://unsplash.com/">Unsplash</a>）.</li>
-<li>更改了<a href="http://blog.pixelwine.top/about/">关于页面</a>.</li>
-<li>更改了网站主语言为英语.（都很基础啦说）</li>
-<li>添加了本日志.</li>
-<li><s>移除了 Herobrine</s>.</li>
-</ul>
-<h2 id="pixel-blog-with-hexo-更新日志"><a class="markdownIt-Anchor" href="#pixel-blog-with-hexo-更新日志"></a> 「PixEL | Blog With Hexo」 更新日志</h2>
-<p>版本信息如下：</p>
-<table>
-<thead>
-<tr>
-<th>内部版本号</th>
-<th>外部版本号</th>
-<th>版本名称</th>
-<th>版本类型</th>
-<th>更新日期</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>HexoInitial</td>
-<td>1.1</td>
-<td>PixEL | Blog</td>
-<td>重构版本</td>
-<td>2022-02-12</td>
-</tr>
-</tbody>
-</table>
-<p>因时间久远已不可考.</p>
-<h2 id="pixel-blog初始版本-更新日志"><a class="markdownIt-Anchor" href="#pixel-blog初始版本-更新日志"></a> 「PixEL | Blog」初始版本 更新日志</h2>
-<p>版本信息如下：</p>
-<table>
-<thead>
-<tr>
-<th>内部版本号</th>
-<th>外部版本号</th>
-<th>版本名称</th>
-<th>版本类型</th>
-<th>更新日期</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>WPInitial</td>
-<td>1.0</td>
-<td>PixEL | Blog</td>
-<td>初始版本</td>
-<td>2021-10-xx</td>
-</tr>
-</tbody>
-</table>
-<p>因时间久远已不可考.</p>
-
+<h3 id="tldr-csharp-compiler"><a class="markdownIt-Anchor" href="#tldr-csharp-compiler"></a> TL;DR. (CSharp Compiler)</h3>
+<p>下面为 TL;DR.<sup id="fnref:4" class="footnote-ref"><a href="#fn:4" rel="footnote"><span class="hint--top hint--rounded" aria-label="too long; didn’t read.
+">[4]</span></a></sup> 内容.<br />
+如果你在用 Windows 操作系统，那么直接 <code>Win + R</code> 调出 <code>cmd</code> 窗口.</p>
+<p>输入 <code>csc 你要编译的文件的文件名</code>，比如说 <code>csc hellopb.cs</code> 即可.这样就会生成一个<code>hellopb.exe</code>程序.</p>
+<blockquote>
+<p>如果得到 <code>'csc' is not recognized as an internal or external command, operable program or batch file.</code> 之类的提示，可以参考菜鸟教程下方的<a target="_blank" rel="noopener" href="https://www.runoob.com/csharp/csharp-program-structure.html#:~:text=%E8%8B%A5%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95,%E5%9C%A8%E5%90%8E%E9%9D%A2%E5%8D%B3%E5%8F%AF%EF%BC%89%E3%80%82">这篇笔记</a>. 如果还是不行，可以下方评论.</p>
+</blockquote>
+<h3 id="visual-studio"><a class="markdownIt-Anchor" href="#visual-studio"></a> Visual Studio</h3>
+<p><em>与上面的 <a href="#tldr-csharp-compiler">TL;DR</a> 方法可以并存，但二选一即可.</em></p>
+<p>请参考 <a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-cn/visualstudio/install/install-visual-studio?view=vs-2022">Microsoft 技术文档</a>. <s>它比我写的好多了</s></p>
+<p>但请注意，在进行 第 4 步 - 选择工作负载 时，务必选中 「.NET 桌面开发」选项. 其余自由配置.</p>
+<h1 id="warning"><a class="markdownIt-Anchor" href="#warning"></a> 🕊 Warning</h1>
+<p>下面内容尚没有更新，请<strong>随意</strong>点击按钮催更. <sup id="fnref:5" class="footnote-ref"><a href="#fn:5" rel="footnote"><span class="hint--top hint--rounded" aria-label="https://en.wikipedia.org/wiki/Placebo_button
+">[5]</span></a></sup></p>
+<p><button>催  更</button></p>
+<section class="footnotes"><h2>Footnotes</h2><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1">面向对象编程 Object-oriented programming</a>
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>C Sharp == C#. 下文同.
+<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://noi.cn/gynoi/tlgd/2016-11-01/710444.shtml">https://noi.cn/gynoi/tlgd/2016-11-01/710444.shtml</a>
+<a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:4" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD/tldr">too long; didn’t read.</a>
+<a href="#fnref:4" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:5" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://en.wikipedia.org/wiki/Placebo_button</a>
+<a href="#fnref:5" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
             </div>
             <hr>
             <div>
@@ -356,7 +305,11 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%AB%99%E5%8A%A1/">站务</a>
+                      <a class="hover-with-bg" href="/tags/%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B/">新手教程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Coding/">Coding</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E5%B0%9A%E6%9C%AA%E5%AE%8C%E6%88%90%E7%9A%84-flag/">尚未完成的 flag</a>
                     
                   </div>
                 
@@ -373,18 +326,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/d89b5491b62b/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">PB 线路选择</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/16aaced5e33b/">
-                        <span class="hidden-mobile">【闲话】 PB 没换架构</span>
+                      <a href="/2022/b1e76494a1f0/">
+                        <span class="hidden-mobile">如何翻墙 - 新手教程</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
