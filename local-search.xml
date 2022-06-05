@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>关于 PGP 我的一些想法</title>
+    <link href="/2022/9c275967afe0/"/>
+    <url>/2022/9c275967afe0/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><blockquote><p>如你所见，这篇文章我就要来谈一谈，我对于 PGP 的一些看法。</p></blockquote><h2 id="what-is-pgp"><a class="markdownIt-Anchor" href="#what-is-pgp"></a> What is PGP</h2><p>何为 PGP?<br />请移步 <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Wikipedia</a>, 这里我摘抄一小段。</p><blockquote><p><em>Pretty Good Privacy</em> is an encryption program that provides cryptographic privacy and authentication for data communication. PGP is used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.</p></blockquote><p>显而易见的，PGP 是一款由 Phil Zimmermann 于 1991 年开发的<strong>商业</strong>加密程序。</p><h2 id="what-is-gpg"><a class="markdownIt-Anchor" href="#what-is-gpg"></a> What is GPG</h2><p>GnuPG = GNU Privacy Guard</p><p>请移步 <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard">Wikipedia</a>, 这里我摘抄一小段。</p><blockquote><p>GNU Privacy Guard (GnuPG or GPG) is a <strong>free-software</strong> replacement for Symantec’s PGP cryptographic software suite. The software is compliant with RFC 4880, the IETF standards-track specification of OpenPGP. Modern versions of PGP are interoperable with GnuPG and other OpenPGP-compliant systems.<br />GnuPG is part of the GNU Project and received major funding from the German government in 1999.</p></blockquote><p>显而易见的，GnuPG 是一款<strong>自由</strong>的加密程序。</p><h2 id="why-gpg-but-not-pgp"><a class="markdownIt-Anchor" href="#why-gpg-but-not-pgp"></a> Why GPG but not PGP</h2><p>显而易见的，因为 GnuPG 更<strong>自由</strong>。</p><h2 id="what-can-it-do"><a class="markdownIt-Anchor" href="#what-can-it-do"></a> What can it do</h2><p>加密、签署、解密、验证。</p><p>使用示例：</p><p>下载 Electrum<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="一款比特币钱包。">[1]</span></a></sup> 时，你可以在<a href="https://electrum.org/#download">下载页面</a>看到</p><blockquote><p>Our executables are reproducible, and are signed independently by several builders.<br />The current executables have been signed by ThomasV, SomberNight, Emzy.</p></blockquote><p>这说明，你可以通过 ThomasV, SomberNight, Emzy 的公钥来验证你下载的可执行文件有没有被篡改。</p><h2 id="why-it-is-needed"><a class="markdownIt-Anchor" href="#why-it-is-needed"></a> Why it is needed</h2><p>当我们在与同伴交流时，你会希望自己传递的信息被篡改吗？</p><p>运用 PGP，你只要事先通过一个可信渠道，将你和同伴的公钥交换，即可验证你们发出的信息是否是<strong>你们本人</strong>发出的。</p><p>其次，当你下载一个与你的财产有关的 App 时，你希望这个 App 在下载的中途被 Hacker 篡改、植入后门，导致你的财产被盗吗？</p><p>运用 PGP，你只要下载上文提到的公钥，即可验证你下载的程序是否是<strong>未被篡改</strong>的程序。</p><section class="footnotes"><h2>Footnotes</h2><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>一款比特币钱包。<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于如何学台湾注音</title>
     <link href="/2022/a86512f1ffc7/"/>
     <url>/2022/a86512f1ffc7/</url>
@@ -14,11 +27,11 @@
     
     <tags>
       
+      <tag>新手教程</tag>
+      
       <tag>Taiwan</tag>
       
       <tag>Zhuyin Input</tag>
-      
-      <tag>新手教程</tag>
       
     </tags>
     
