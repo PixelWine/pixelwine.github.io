@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>【FAQ】PWFM 启动~</title>
+    <link href="/2022/e8b7200e9597/"/>
+    <url>/2022/e8b7200e9597/</url>
+    
+    <content type="html"><![CDATA[<h2 id="引言"><a class="markdownIt-Anchor" href="#引言"></a> 引言</h2><blockquote><p>在经过了 <a href="//pixelwine.top/2022/5efc73596114/">PW Cloud</a> 的失败以后，我还是不甘心，因此，我还在自建网盘的路上奔走着…</p></blockquote><blockquote><p>到现在，取得了一点点微小的成果，就想分享一下。</p></blockquote><h2 id="何为-pw-file-manager"><a class="markdownIt-Anchor" href="#何为-pw-file-manager"></a> 何为 PW File Manager</h2><p>和 PW Cloud 一样，都是以 <a href="https://cloudreve.org/">Cloudreve</a> 为基础进行搭建的。</p><p><s>毕竟真的hin好看</s></p><p>啊回归正题 所谓 <em>PW File Manager</em>，就是如它的「站点描述」一样，<em>A online file manager provided by PixelWine.</em></p><p>它的宗旨是<em>Love and Peace</em>，所以请使用 PWFM<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="PW File Manager.">[1]</span></a></sup> 的各位不要上传奇奇怪怪的文件~</p><p><s>其实讲这么多 本质不还是 PW Cloud 的替代品嘛（</s></p><p>你可以用它上传文件，admin 保证绝对绝对不会看的~</p><p><s>其实就是云盘，不靠谱的那种</s></p><h2 id="where"><a class="markdownIt-Anchor" href="#where"></a> Where?</h2><p>毕竟只是个<strong>实验性项目</strong>，所以就暂且用 IP + Port 凑合一下吧。</p><p><a href="http://43.132.160.117:5212/">43.132.160.117:5212</a></p><h2 id="分割线"><a class="markdownIt-Anchor" href="#分割线"></a> 分割线</h2><p>下面是《比较专业》的内容，可能比较枯燥乏味，TLDR 请到<a href="//pixelwine.top/2022/e8b7200e9597/#%E7%BB%93%E6%9D%9F%E4%BA%86">「结束了？」</a>。</p><h2 id="存储策略"><a class="markdownIt-Anchor" href="#存储策略"></a> 存储策略？</h2><p>目前「通用存储策略」包含七牛云存储和本机存储，普通用户优先使用本机存储，<s>只有可怜的500MB</s>，充钱（<s>氪金</s>）用户可以申请使用七牛存储，<s>高人一等的</s>管理员当然是用七牛了啊（</p><p>「尝鲜存储策略」的话，目前在公测的有 OneDrive 和 阿里云 OSS，<s>值得注意的是，阿里云 OSS是白嫖的，很容易哪天就过期了，数据就全都没了</s>。</p><p>想<s>吃螃蟹</s>尝鲜的用户，可以联系我申请，联系渠道在文末。免费用户和充钱用户都能申请（</p><h2 id="关于其他"><a class="markdownIt-Anchor" href="#关于其他"></a> 关于其他</h2><p>请参考 <img src="1.png" alt="" /></p><p>过两天会再更新这篇文章 <s>虽然大概率会鸽</s></p><h2 id="结束了"><a class="markdownIt-Anchor" href="#结束了"></a> 结束了？</h2><p>如欲了解详情，请至 <a href="//pixelwine.top/about/#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">Contact Me</a> 页面，通过其中标识的联系方式详询。</p><section class="footnotes"><h2>Footnotes</h2><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>PW File Manager.<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于 PGP 我的一些想法</title>
     <link href="/2022/9c275967afe0/"/>
     <url>/2022/9c275967afe0/</url>
@@ -158,6 +171,19 @@
       <tag>闲话</tag>
       
     </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PW Cloud 正式运行</title>
+    <link href="/2022/5efc73596114/"/>
+    <url>/2022/5efc73596114/</url>
+    
+    <content type="html"><![CDATA[<h2 id="pw-cloud-即日起開始運行"><a class="markdownIt-Anchor" href="#pw-cloud-即日起開始運行"></a> PW Cloud 即日起開始運行！</h2><blockquote><p>簡體字版稍後更新。</p></blockquote><p>為了存放個人工作資料，特設立 <a href="https://cloud.pixelwine.team">PW Cloud</a> 多存儲節點在綫雲盤系統，接受 PW Team 成員注冊，但同時也接受外來用戶注冊。</p><h3 id="ta-到底在哪裡"><a class="markdownIt-Anchor" href="#ta-到底在哪裡"></a> TA 到底在哪裡？</h3><p>隨處可得, 無論 Android, iOS 設備, 亦或 PC, Mac, 皆一秒鐘到手！</p><h3 id="權限介紹tl-dr-請至最後"><a class="markdownIt-Anchor" href="#權限介紹tl-dr-請至最後"></a> 權限介紹：（TL; DR 請至最後）</h3><ul><li><p>管理者（簡體介面作「管理员」）：缺省給予初始容量 8 Gigabytes, 下載不限速，允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，允許多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件不限制大小。</p></li><li><p>S高級使用者（簡體介面作「SVIP」）：缺省給予初始容量 5 Gigabytes, 下載限速至 12 MB/s（理論上的 100Mbps），允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，允許多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件限制在 3 Gigabytes 之内。</p></li><li><p>高級使用者（簡體介面作「高级用户」）：缺省給予初始容量 3 Gigabytes, 下載限速至 6 MB/s（理論上的 50Mbps），允許創建分享連結，允許下載他人分享的内容，允許 WebDAV 協議，阻止多綫程下載程式，允許創建離綫下載任務，允許在綫壓縮、解壓縮，且壓縮、解壓縮的文件限制在 1 Gigabytes 之内。</p></li><li><p>一般使用者（簡體介面作「普通用户」）：缺省給予初始容量 500 Megabytes, 下載限速至 3 MB/s（理論上的 25Mbps），允許創建分享連結，允許下載他人分享的内容，阻止 WebDAV 協議，阻止多綫程下載程式，阻止創建離綫下載任務，阻止在綫壓縮、解壓縮。</p><h3 id="tl-dr"><a class="markdownIt-Anchor" href="#tl-dr"></a> TL; DR?</h3><table><thead><tr><th>使用者類型</th><th>初始容量 / GB</th><th>下載限速 / (MB/s)</th><th>創建分享連結</th><th>下載他人分享内容</th><th>WebDAV 協議</th><th>多綫程下載程式</th><th>離綫下載</th><th>在綫壓縮、解壓縮</th><th>在綫壓縮、解壓縮限制 / GB</th></tr></thead><tbody><tr><td>一般使用者</td><td>0.5</td><td>3</td><td>✔</td><td>✔</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>高級使用者</td><td>3</td><td>6</td><td>✔</td><td>✔</td><td>✔</td><td>❌</td><td>✔</td><td>✔</td><td>1</td></tr><tr><td>S高級使用者</td><td>5</td><td>12</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>3</td></tr><tr><td>管理員</td><td>8</td><td>無</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>無</td></tr></tbody></table></li></ul><p>加入 PW Team 者可免費獲得一個 @pixelwine.com.cn 域的郵箱，且擁有 <a href="https://cloud.pixelwine.team">PW Cloud</a> 「高級使用者」權限。</p><p>請電郵至 nothing567[ at ]<a href="http://pixelwine.com.cn">pixelwine.com.cn</a> 亦或 team [ at ]<a href="http://pixelwine.com.cn">pixelwine.com.cn</a>，洽談加入。</p>]]></content>
+    
+    
     
   </entry>
   

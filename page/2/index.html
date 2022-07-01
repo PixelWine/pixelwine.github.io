@@ -18,8 +18,8 @@
   
     <meta name="description" content="The web log of Fagri EL">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Archives">
-<meta property="og:url" content="https://blog.pixelwine.top/archives/2022/04/index.html">
+<meta property="og:title" content="PixEL | Blog">
+<meta property="og:url" content="https://blog.pixelwine.top/page/2/index.html">
 <meta property="og:site_name" content="PixEL | Blog">
 <meta property="og:description" content="The web log of Fagri EL">
 <meta property="og:locale" content="en_US">
@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>Archives - PixEL | Blog</title>
+  <title>PixEL | Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -57,7 +57,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -153,18 +153,22 @@
 </nav>
 
     <div class="banner" id="banner" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/img/default.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Archive">
+            <span class="h2" id="subtitle" title="用技术去生存，用艺术去生活。">
               
             </span>
 
             
           </div>
 
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
           
         </div>
       </div>
@@ -175,60 +179,54 @@
     
       <div class="container nopadding-x-md">
         <div class="py-5" id="board"
-          >
+          style=margin-top:0>
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">11 posts in total.</p>
-  <hr>
-  
-  
+
+  <div class="row mx-auto index-card">
     
-      
-      <p class="h5">2022</p>
     
-    <a href="/2022/4a2ad751c620/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">C# 从入门到入土（一）</span>
-      <time style="float: right;">04-17</time>
-    </a>
-  
-    
-    <a href="/2022/b1e76494a1f0/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">如何翻墙 - 新手教程</span>
-      <time style="float: right;">04-12</time>
-    </a>
-  
-    
-    <a href="/2022/878557c49001/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">PWOJ 正式运行</span>
-      <time style="float: right;">04-10</time>
-    </a>
-  
-    
-    <a href="/2022/d89b5491b62b/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">PB 线路选择</span>
-      <time style="float: right;">04-09</time>
-    </a>
-  
-    
-    <a href="/2022/204d9b9fe45d/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">PB 更新日志</span>
-      <time style="float: right;">04-09</time>
-    </a>
-  
-    
-    <a href="/2022/16aaced5e33b/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">【闲话】 PB 没换架构</span>
-      <time style="float: right;">04-08</time>
-    </a>
-  
-</div>
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/b3040c641b23/" target="_blank">
+          【通知】本站已经由 WordPress 转向 Hexo
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/b3040c641b23/" target="_blank">
+          
+          
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-02-12 11:35" pubdate>
+              2022-02-12
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
 
 
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
 
 
 
@@ -333,7 +331,34 @@
       var typing = Fluid.plugins.typing;
       var title = document.getElementById('subtitle').title;
       
-        typing(title);
+      jQuery.ajax({
+        type: 'GET',
+        url: 'https://v1.hitokoto.cn/?c=k&amp;c=d&amp;c=e',
+        headers: {},
+        dataType: 'json',
+        success: function(result) {
+          var text;
+          if (result) {
+            var keys = 'hitokoto'.split(',');
+            if (result instanceof Array) {
+              result = result[0];
+            }
+            for (const k of keys) {
+              var value = result[k];
+              if (typeof value === 'string') {
+                text = value;
+                break;
+              } else if (value instanceof Object) {
+                result = value;
+              }
+            }
+          }
+          text ? typing(text) : typing(title);
+        },
+        error: function() {
+          typing(title);
+        }
+      })
       
     })(window, document);
   </script>
